@@ -20,6 +20,6 @@ variable "custom_name" {
 
 
 locals {
-  env = coalesce(var.environment, "dev")
+  env           = coalesce(var.environment, "dev")
   resource_name = coalesce(var.custom_name, "default-name")
 }

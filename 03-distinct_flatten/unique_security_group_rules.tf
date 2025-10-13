@@ -1,9 +1,9 @@
 locals {
   rules = [
-    { port = 22,  protocol = "tcp" },
-    { port = 80,  protocol = "tcp" },
+    { port = 22, protocol = "tcp" },
+    { port = 80, protocol = "tcp" },
     { port = 443, protocol = "tcp" },
-    { port = 80,  protocol = "tcp" }  # Duplicate
+    { port = 80, protocol = "tcp" } # Duplicate
   ]
 }
 

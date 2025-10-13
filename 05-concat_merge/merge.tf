@@ -59,7 +59,7 @@ output "ex2_merged_map" {
 # Example 3: Merging Multiple Maps with Overlapping Keys ==========================================================
 variable "ex3_map1" {
   default = {
-    env = "prod"
+    env           = "prod"
     instance_type = "t2.micro"
   }
 }
